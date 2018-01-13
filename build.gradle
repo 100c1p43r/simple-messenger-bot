@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'pl.droidsonroids:jspoon:1.0.1'
+    compile 'pl.droidsonroids.retrofit2:converter-jspoon:1.0.1'
+    compile 'com.squareup.retrofit2:converter-jackson:2.3.0'
+    compile 'org.springframework.boot:spring-boot-starter:1.5.9.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-web:1.5.9.RELEASE'
+}
